@@ -177,7 +177,5 @@ Yes. Start with `PAPER_MODE=true`, run diagnostics, and only then consider live 
 
 For access, pricing, or questions, contact:
 
-- Telegram: `@your_username`
-- Email: `your@email.com`
-
-Replace these contact details before using this page publicly.
+- Telegram: `@artemius001`
+- Email: `artem@president-kids.ru`
