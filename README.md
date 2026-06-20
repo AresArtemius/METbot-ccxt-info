@@ -100,6 +100,28 @@ Exact available commands may depend on the purchased version.
 
 METbot-ccxt is based on `ccxt`, so the architecture is multi-exchange.
 
+## What `ccxt` Provides
+
+METbot-ccxt uses `ccxt` as the exchange connectivity layer.
+
+Through `ccxt`, the bot can use a unified interface for:
+
+- market data;
+- tickers and prices;
+- balances;
+- candles/OHLCV;
+- orderbook data;
+- market orders;
+- limit/trigger orders when supported;
+- open and closed orders;
+- order status;
+- order cancellation;
+- precision and market limits.
+
+Important: `ccxt` does not make all exchanges identical. Each exchange can have different symbols, limits, fees, stop-order behavior, trigger-order parameters, and API permissions.
+
+Before live trading on any exchange, the exchange must be tested with diagnostics, paper mode, and a very small live trade.
+
 Each exchange must still be tested before live trading because exchanges differ in:
 
 - API permissions;
