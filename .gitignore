@@ -1,0 +1,8 @@
+.DS_Store
+.env
+LICENSE_KEY
+*.log
+*.csv
+*.jsonl*
+state.json
+watchdog_state.json
